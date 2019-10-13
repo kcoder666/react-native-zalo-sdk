@@ -1,7 +1,7 @@
 {
-  "name": "react-native-zalo-sdk",
-  "title": "React Native Zalo Sdk",
-  "version": "1.0.0",
+  "name": "rn-zalo-sdk",
+  "title": "React Native Zalo SDK",
+  "version": "0.0.1-wip.5",
   "description": "Zalo SDK for React Native",
   "main": "index.js",
   "scripts": {

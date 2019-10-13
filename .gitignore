@@ -35,6 +35,9 @@ build/
 .gradle
 local.properties
 *.iml
+.classpath
+.project
+android/.settings
 
 # VSCode
 #
