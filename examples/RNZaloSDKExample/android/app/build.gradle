@@ -179,9 +179,10 @@ android {
 }
 
 dependencies {
-    implementation project(':rn-zalo-sdk')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation "com.zing.zalo.zalosdk:core:+"
+    implementation "com.zing.zalo.zalosdk:auth:+"
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";

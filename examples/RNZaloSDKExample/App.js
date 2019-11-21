@@ -37,6 +37,14 @@ class App extends React.Component {
     this.setState({profile: profileData});
   };
 
+  onSendMessagePress = async () => {
+    await RNZalo.sendMessageInZalo(
+      'Hello from ZaloSDK',
+      'ZaloSDK Example',
+      'https://github.com/khoatrangeek/react-native-zalo-sdk',
+    );
+  };
+
   render() {
     const {profile} = this.state;
 
@@ -55,6 +63,10 @@ class App extends React.Component {
                   <Text>Name: {profile.name}</Text>
                 </>
               )}
+              <Button
+                title="Send message via Zalo app"
+                onPress={this.onSendMessagePress}
+              />
             </View>
           </ScrollView>
         </SafeAreaView>
