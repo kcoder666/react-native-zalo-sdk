@@ -5396,10 +5396,10 @@ rimraf@~2.2.6:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
 
-rn-zalo-sdk@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/rn-zalo-sdk/-/rn-zalo-sdk-0.0.2.tgz#e7f7f65d4d4c6244effc62718703051295a1f7fb"
-  integrity sha512-sn9s6hPu+tZY2K16kBWPj10E/Zd2p+o13Tj0fwSpdADKATWJGY4f5SQfWk2dKMrJ618TdhoG4w8EbpJlYTkrYw==
+rn-zalo-sdk@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/rn-zalo-sdk/-/rn-zalo-sdk-0.0.3.tgz#95186da8ba622a80de6da1ad4b80630817158643"
+  integrity sha512-bpSZQy2wzvstbp/zWgR4Jn+dpwZQwHQ89oqh9q++MkQ34Zs9BDnxSPu2U4xhds28kD2pLSxkY1S9I64O6M7nLQ==
 
 rsvp@^4.8.4:
   version "4.8.5"
