@@ -1,3 +1,19 @@
+# VSCode
 .vscode
 
+# Android
+.gradle
+.idea
+.settings
+.classpath
+.project
+*.iml
+local.properties
+android/build
+
+# iOS
+Pods
+*.xcworkspace
+
+# Example app
 examples/**/*

@@ -36,8 +36,7 @@ RCT_EXPORT_METHOD(isAuthenticated:(RCTPromiseResolveBlock)resolve
     [[ZaloSDK sharedInstance] isAuthenticatedZaloWithCompletionHandler:^(ZOOauthResponseObject *response) {
         
         if ([response isSucess]) {
-            NSString * oauthCode = response.oauthCode;
-            resolve(oauthCode);
+            resolve(TRUE);
         } else {
             NSString * errorCode = [NSString stringWithFormat:@"%ld", (long) response.errorCode];
             NSString * message = response.errorMessage;
